@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spring</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <form method="POST" action="login">
+            <div>
+                <label for="txbUserName">User Name</label>
+                <input type="text" id="txbUserName" name="username">
+            </div>
+            <div>
+                <label for="txbPassword">Password</label>
+                <input type="password" id="txbPassword" name="password">
+            </div>
+            <div>
+                <label for="txbSecret">Secret</label>
+                <input type="password" id="txbSecret" name="secret">
+            </div>
+            <div>
+                <label for="txbCaptcha">Captcha</label>
+                <input type="text" id="txbCaptcha" name="captcha">
+                <img src="/captcha" width="130px" height="48px" />
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
